@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143" height="34" viewBox="0 0 143 34">
+  <g id="logo" transform="translate(-135 -30)">
+    <text id="Netbook" transform="translate(175 30)" fill="#2b2b39" font-size="24" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="25">Netbook</tspan></text>
+    <g id="Group">
+      <path id="Subtract" d="M27.451,10.45A17,17,0,0,1,0,23.86L18.232,5.627A9.159,9.159,0,0,1,12.94,19.262a3.138,3.138,0,1,0,.4,3.14A12.3,12.3,0,0,0,20.5,3.364L23.86,0A16.927,16.927,0,0,1,27.451,10.45Z" transform="translate(141.551 36.549)" fill="#ffaf2e"/>
+      <path id="Subtract-2" data-name="Subtract" d="M6.955,24.086,3.591,27.45A17,17,0,0,1,27.45,3.591L9.218,21.823A9.159,9.159,0,0,1,14.511,8.189a3.138,3.138,0,1,0-.4-3.14A12.3,12.3,0,0,0,6.955,24.086Z" transform="translate(135 30)" fill="#f04148"/>
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="1.308" cy="1.308" r="1.308" transform="translate(150.691 34.969)" fill="#f04148"/>
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="1.308" cy="1.308" r="1.308" transform="translate(150.691 56.416)" fill="#ffaf2e"/>
+    </g>
+  </g>
+</svg>
