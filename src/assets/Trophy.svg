@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.516" height="21.25" viewBox="0 0 26.516 21.25">
+  <g id="Trophy" transform="translate(-0.734 -4.25)">
+    <g id="Trophy-2" data-name="Trophy">
+      <path id="Vector" d="M0,.875V6.9A7.875,7.875,0,1,0,15.75,7V.875A.875.875,0,0,0,14.875,0h-14A.875.875,0,0,0,0,.875Z" transform="translate(6.125 5.25)" fill="none" stroke="#217bf4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0H7" transform="translate(10.5 24.5)" fill="none" stroke="#217bf4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0V4.375" transform="translate(14 20.125)" fill="none" stroke="#217bf4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-4" data-name="Vector" d="M0,6.125H1.07a3.5,3.5,0,0,0,3.5-3.5V.875A.875.875,0,0,0,3.7,0H.2" transform="translate(21.68 7.875)" fill="none" stroke="#217bf4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-5" data-name="Vector" d="M4.6,6.125H3.5A3.5,3.5,0,0,1,0,2.625V.875A.875.875,0,0,1,.875,0h3.5" transform="translate(1.734 7.875)" fill="none" stroke="#217bf4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

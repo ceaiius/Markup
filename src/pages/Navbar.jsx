@@ -1,18 +1,19 @@
 import Button from 'react-bootstrap/Button';
+import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import icon from "./assets/logo.svg";
+import icon from "../assets/logo.svg";
 
 
 
 function NavBar() {
   return (
-    
-    <Navbar  bg="white" expand="lg" className='mt-4'>
+    <>
+    <Navbar  bg="white" expand="lg" className='mt-4 ms-5'>
       <Container fluid>
         <Navbar.Brand className='ms-5' href="#"> <img src={icon}/></Navbar.Brand>
         <Navbar.Toggle  aria-controls="navbarScroll" />
@@ -42,17 +43,20 @@ function NavBar() {
           <Form className="d-flex me-5 form-div">
             <Form.Control
               type="search"
-              placeholder="Search Here"
+              placeholder="Search Here..."
               className="me-2 form-control-sm"
               aria-label="Search"
+              style={{width:"120px", height:"33px", marginTop:"10px"}}
             />
-            <Button class="btn btn-primary me-5">Log in</Button>
+            <Button style={{marginLeft:"20px"}} className="btn btn-primary me-5">Log in</Button>
           </Form>
           
           
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <hr></hr>
+    </>
   );
 }
 

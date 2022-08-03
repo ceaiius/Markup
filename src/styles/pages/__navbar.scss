@@ -1,10 +1,4 @@
-
-*{
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.btn{
+.mt-4 .btn{
     width: 123px;
     height: 50px;
     background: #217BF4 0% 0% no-repeat padding-box;
@@ -14,6 +8,11 @@
     
 }
 
+hr{
+    border: 1px solid #217BF4 !important;
+    opacity: 0.1 !important;
+}
+
 @media (max-width: 992px) {
     .form-div{
         
@@ -21,4 +20,3 @@
         margin-left: 2rem;
     }
 }
-

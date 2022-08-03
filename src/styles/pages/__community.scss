@@ -1,0 +1,123 @@
+.community{
+    height: 100vh;
+}
+
+.half-container{
+        display: flex;
+}
+
+.left-div{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.right-div{
+    width: 50%;
+    
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.btn-flat{
+    top: 215px;
+    left: 135px;
+    width: 177px;
+    height: 36px;
+    background: rgba(33,123,244, 0.1) !important;
+    border-radius: 8px;
+    opacity:1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: #0e6eec !important;
+    font-weight: 600!important;
+    font-size: 13px!important;
+
+}
+
+.text-div{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+.text-div h1{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: #0A093D;
+    opacity: 1;
+    font-size: 56px;
+    font-weight: bolder;
+    width: 515px;
+    height: 133px;
+}
+
+.text-div h2{
+    width: 491px;
+height: 56px;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+letter-spacing: 0px;
+color: #656464;
+padding-top: 15px;
+opacity: 1;
+}
+
+.about-more{
+    width: 162px;
+    height: 62px;
+    /* UI Properties */
+    background: #217BF4 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 7px 44px #217BF457 !important;
+    border-radius: 14px !important;
+    opacity: 1;
+}
+
+.btn-invite{
+
+width: 167px;
+height: 62px;
+border: 1px solid #217BF4 !important;
+border-radius: 14px !important;
+
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 0px;
+color: #217BF4 !important;
+opacity: 1;
+font-weight: 600!important;
+}
+
+@media (max-width:850px){
+
+    h1{
+        padding-top: 20px;
+        font-size: 40px!important;
+    }
+    .button-div{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2{
+        padding-top: 20px;
+    }
+
+    .half-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    
+}

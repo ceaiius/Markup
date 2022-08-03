@@ -1,0 +1,250 @@
+.social{
+    height: 100vh;
+}
+
+.container-social{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-text-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+   
+}
+
+.social-text-div h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    font-size: 18px;
+    color: #217BF4;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.social-text-div h1{
+    width: 406px;
+    height: 91px;
+
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    color: #0A093D;
+    opacity: 1;
+}
+
+.social-text-div h3{
+    width: 406px;
+    height: 47px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    color: #656464;
+    opacity: 1;
+    
+}
+
+.bullet-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15%;
+    color: #171648;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bullet-list i {
+    padding-right: 5px;
+}
+
+.social-image-div{
+    display: flex;
+    margin-top: 7%;
+    margin-right: 10%;
+}
+
+.column-image-div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.image-icon{
+    position: relative;
+    margin-right: 10%;
+}
+
+.play{
+    
+    top: 37%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.card-div{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    gap: 5%;
+    padding-bottom: 5%;
+}
+
+.number-span{
+    color: #217BF4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.member-span{
+    color:#5D5B70;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.card-text{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: #8C8C8C;
+    opacity: 1;
+}
+
+.span-div{
+    padding-top: 40px;
+}
+
+.github-icon{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.github-name{
+    padding-left: 5px;
+}
+
+.github-text{
+    margin-top: 50px;
+}
+
+.man-link{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #217BF4;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.github-link{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4A4A56;
+    opacity: 1;
+    text-decoration: none;
+}
+
+
+.card-text-div h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    font-size: 18px;
+    color: #217BF4;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.card-text-div h1{
+    width: 381px;
+    height: 96px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    color: #0A093D;
+    opacity: 1;
+}
+
+.card-text-div h3{
+    width: 365px;
+    height: 75px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    color: #656464;
+    opacity: 1;
+    
+}
+
+.discover-me{
+    width: 162px;
+    height: 62px;
+    /* UI Properties */
+    background: #217BF4 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 7px 44px #217BF457 !important;
+    border-radius: 14px !important;
+    opacity: 1;
+}
+
+
+@media (max-width:850px){
+    .social-image-div{
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    .social-image-div img{
+        width: auto;
+    }
+
+    .social-text-div h3{
+        padding-top: 30px;
+    }
+
+    .social-text-div h2{
+        padding-left: 100px;
+    }
+
+    .bullet-list{
+        padding-top: 20%;
+        padding-left: 40%;
+    }
+
+    .card-text-div h3{
+        padding-top: 70px;
+    }
+    .discover-me{
+        margin-top: 100px;
+        margin-left: 70px;
+    }
+
+    .card-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+        gap:50px;
+    }
+
+    .card-text-div h2{
+        padding-left: 100px;
+    }
+}
