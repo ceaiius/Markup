@@ -1,5 +1,4 @@
 .features{
-    height: 100vh;
     background: transparent linear-gradient(0deg, #F1F6FD00 14%, #F1F6FD 30%, #F1F6FD 64%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -12,7 +11,7 @@
 }
 
 .features-text-div{
-    margin-top: 15%;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,10 +93,7 @@ opacity: 1;
         flex-direction: column;
         gap: 20px;
     }
-    .features-container{
-        margin-top: 150%;
-        
-    }
+   
 
     .features-text-div h2{
         margin-top: 50px;

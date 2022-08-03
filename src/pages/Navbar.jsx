@@ -13,7 +13,7 @@ import icon from "../assets/logo.svg";
 function NavBar() {
   return (
     <>
-    <Navbar  bg="white" expand="lg" className='mt-4 ms-5'>
+    <Navbar  bg="white" expand="lg" className='mt-4 navbar'>
       <Container fluid>
         <Navbar.Brand className='ms-5' href="#"> <img src={icon}/></Navbar.Brand>
         <Navbar.Toggle  aria-controls="navbarScroll" />

@@ -1,6 +1,4 @@
-.community{
-    height: 100vh;
-}
+
 
 .half-container{
         display: flex;
@@ -8,7 +6,7 @@
 
 .left-div{
     width: 50%;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 8%;
     display: flex;
     flex-direction: column;
@@ -119,5 +117,7 @@ font-weight: 600!important;
         align-items: center;
     }
   
-    
+    .btn-flat{
+        margin-left: 20%;
+    }
 }

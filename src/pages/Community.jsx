@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 function Community() {
   return (
+    
     <div className='half-container'>
         <div className='left-div'>
         <Button variant="flat">Netbook community</Button>
@@ -21,6 +22,7 @@ function Community() {
         </div>
         </div>
         <div className='right-div'>
+        {/* Can't add a background color to the whole section because the community image has white spaces all around it */}
             <img src={community} className="img-fluid" alt="Responsive image"/>
         </div>
     </div>

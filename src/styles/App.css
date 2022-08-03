@@ -2,6 +2,7 @@
 @import url("./pages/__community.scss");
 @import url("./pages/__social.scss");
 @import url("./pages/__features.scss");
+@import url("./pages/__members.scss");
 * {
   margin: 0;
   -webkit-box-sizing: border-box;

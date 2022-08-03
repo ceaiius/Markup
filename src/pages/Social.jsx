@@ -32,7 +32,7 @@ function Social() {
             </div>
             <div className='social-image-div' >
                 <div className='image-icon'>
-                    <img src={group} className="img-fluid" alt="Responsive image"/>
+                    <img style={{marginTop:"25%"}} src={group} className="img-fluid" alt="Responsive image"/>
                     <img src={play}  className="img-fluid play" alt="Responsive image"/>
                 </div>
                 <div className='column-image-div'>

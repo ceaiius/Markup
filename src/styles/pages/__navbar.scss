@@ -13,6 +13,10 @@ hr{
     opacity: 0.1 !important;
 }
 
+.container-fluid{
+    margin-left: 8rem!important;
+}
+
 @media (max-width: 992px) {
     .form-div{
         
@@ -20,3 +24,4 @@ hr{
         margin-left: 2rem;
     }
 }
+
