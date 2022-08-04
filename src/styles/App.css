@@ -3,6 +3,8 @@
 @import url("./pages/__social.scss");
 @import url("./pages/__features.scss");
 @import url("./pages/__members.scss");
+@import url("./pages/__download.scss");
+@import url("./pages/__latest.scss");
 * {
   margin: 0;
   -webkit-box-sizing: border-box;

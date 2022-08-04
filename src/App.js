@@ -4,6 +4,8 @@ import NavBar from './pages/Navbar';
 import Social from "./pages/Social"
 import Features from "./pages/Features";
 import Members from "./pages/Members";
+import DownloadApp from "./pages/Download";
+import Latest from "./pages/Latest";
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,12 @@ function App() {
     </section>
     <section className="members">
       <Members/>
+    </section>
+    <section className="download">
+      <DownloadApp/>
+    </section>
+    <section className="latest">
+      <Latest/>
     </section>
       
     
