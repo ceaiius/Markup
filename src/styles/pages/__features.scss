@@ -1,16 +1,16 @@
-.features{
+.features {
     background: transparent linear-gradient(0deg, #F1F6FD00 14%, #F1F6FD 30%, #F1F6FD 64%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
-.features-container{
+.features-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.features-text-div{
+.features-text-div {
     margin-top: 5%;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.features-text-div h3{
+.features-text-div h3 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -28,7 +28,7 @@
     opacity: 1;
 }
 
-.features-text-div h2{
+.features-text-div h2 {
     width: 421px;
     height: 47px;
     text-align: center;
@@ -40,25 +40,25 @@
     opacity: 1;
 }
 
-.features-text-div h1{
+.features-text-div h1 {
     width: 441px;
-height: 43px;
-text-align: center;
-font-size: 36px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 700;
-letter-spacing: 0px;
-color: #0A093D;
-opacity: 1;
+    height: 43px;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #0A093D;
+    opacity: 1;
 }
 
-.card-group{
+.card-group {
     width: 522px !important;
     height: 182px !important;
     margin-bottom: 5%;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -66,44 +66,42 @@ opacity: 1;
     margin-top: 5%;
 }
 
-.card-container{
+.card-container {
     display: flex;
     gap: 100px;
 }
 
-.features-btn{
+.features-btn {
     width: 66px;
     height: 66px;
     border-radius: 24px !important;
     opacity: 1;
 }
 
-.cardgroup-text-div{
+.cardgroup-text-div {
     margin-top: 5%;
 }
 
-.cardgroup-img-div{
+.cardgroup-img-div {
     margin-left: 5%;
     margin-top: 3%;
 }
 
-@media (max-width:850px){
+@media (max-width:850px) {
 
-    .card-container{
+    .card-container {
         flex-direction: column;
         gap: 20px;
     }
-   
 
-    .features-text-div h2{
+
+    .features-text-div h2 {
         margin-top: 50px;
     }
 }
 
-@media (max-width:850px){
-    .features-container{
+@media (max-width:850px) {
+    .features-container {
         margin-left: 10%;
     }
 }
-
-

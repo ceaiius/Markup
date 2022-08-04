@@ -56,14 +56,16 @@
     opacity: 1;
 }
 
-@media (max-width:1220px){
-    .download-left-div h3{
+@media (max-width:1220px) {
+    .download-left-div h3 {
         margin-top: 10%;
     }
-    .download-left-div h2{
+
+    .download-left-div h2 {
         margin-left: 15%;
     }
-    .download-container{
+
+    .download-container {
         flex-direction: column;
         align-items: center;
         justify-content: center;

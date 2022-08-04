@@ -6,6 +6,8 @@ import Features from "./pages/Features";
 import Members from "./pages/Members";
 import DownloadApp from "./pages/Download";
 import Latest from "./pages/Latest";
+import Subscribe from "./pages/Subscribe";
+import Footer from "./pages/Footer";
 function App() {
   return (
     <div className="App">
@@ -28,7 +30,11 @@ function App() {
     <section className="latest">
       <Latest/>
     </section>
-      
+    <section className="subscribe">
+      <Subscribe/>
+      <Footer/>
+    </section>
+    
     
       
     </div>

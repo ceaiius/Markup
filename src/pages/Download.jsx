@@ -2,7 +2,7 @@ import React from 'react'
 import mobile from "../assets/mobile.png"
 import appStore from "../assets/app-store.png"
 import playStore from "../assets/play-store.png"
-import Button from 'react-bootstrap/Button';
+
 function DownloadApp() {
   return (
     <div className='download-container'>
